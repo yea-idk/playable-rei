@@ -1,0 +1,179 @@
+0x000-0x003
+header data, tells when a character begins
+do not change this
+may be fun in future
+
+0x004-0x005
+lower|upper
+party id, tells what party member this is
+DO NOT EDIT
+overlaps can cause crashes, changed values can break story
+set custom characters to XXff
+
+0x006-0x007
+lower|upper
+hdd enable?
+DO NOT EDIT
+invalid values will likely crash, changing a human to a goddess may cause crashes
+01 - hdd possible?
+02 - hdd not possible?
+
+0x008-0x027
+name space
+32 characters maximum
+set all unused to 00 or the name will get compressed
+does not affect portrait text, only menu text
+
+0x028-0x02b
+low|highlow|lowhigh|high
+exp total
+probably not 4 bytes
+this is black magic
+
+0x02c-0x02d
+lower|upper
+character id
+serves only as a failsafe
+change this to anything, leave alone for stock characters
+reccomend keeping the same as party id
+
+0x02e-0x02f
+lower|upper
+level
+unaware of any caps, visual only
+
+0x030-0x031
+lower|upper
+character portrait
+will show nothing if invalid
+reccomend setting to 0f00, CC2 is pretty cute
+
+0x032-0x03f
+unused?
+can be set to anything with no obvious effects, but has data by default
+
+0x040-0x041
+lower|upper
+current health, no cap
+
+0x042-0x047
+unknown
+
+0x048-0x049
+lower|upper
+current sp
+no cap?
+
+0x04a-0x04f
+unknown
+
+0x050-0x051
+lower|upper
+max health
+no cap
+current can be set higher
+
+0x052-0x057
+unknown
+
+0x058-0x059
+lower|upper
+max sp
+9999 (0f27) cap
+current can be set higher
+
+0x05a-0x05b
+unknown
+
+0x05c-0x05d
+lower|upper
+str stat
+9999 (0f27) cap
+
+0x05e-0x05f
+unknown
+
+0x060-0x061
+lower|upper
+vit stat
+9999 (0f27) cap
+
+0x062-0x063
+unknown
+
+0x064-0x065
+lower|upper
+int stat
+9999 (0f27) cap
+
+0x066-0x067
+unknown
+
+0x068-0x069
+lower|upper
+men stat
+9999 (0f27) cap
+
+0x06a-0x06b
+unknown
+
+0x06c-0x06d
+lower|upper
+agi stat
+9999 (0f27) cap
+
+0x06e-0x06f
+unknown
+
+0x070-0x071
+lower|upper
+tec stat
+9999 (0f27) cap
+
+0x072-0x077
+unknown
+
+0x078-0x079
+lower|upper
+luk stat
+9999 (0f27) cap
+
+0x07a-0x07b
+unknown
+
+0x07c
+mov stat
+10 (0a) cap
+
+0x07d-0x0b7
+unknown
+
+0x0b8-0x0b9
+lower|upper
+model id
+if invalid 1 of 4 things will happen
+1 no model will be displayed, disables jumping
+2 areas will take longer to load and display no character model, disables jumping
+3 CC2s model will load
+4 either the party id or character id will load, unsure of which, likely party id
+
+0x0ba-0x4c3
+unknown
+lots of empty space
+might be useable for something fun involving header
+
+0x4c4-0x4cb
+metadata of some kind
+appears to be the same for every character, have not tried changing
+
+0x4cc-0x4d7
+unknown
+
+0x4d8
+character voice bank
+have no tried setting invalid
+produces some interesting effects when using wrong voice in battle
+does not affect hdd
+
+0x4d9-0x507
+unknown
