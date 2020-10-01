@@ -1,4 +1,38 @@
-HyperDimension Neptune Re;Brith 1
+HyperDimension Neptunia Re;Brith 1
+
+Character Models, 0xb8-0xb9
+Neptune - 2801 (f10a)
 IF - 2906 (5a0b)
 Compa - 2909 (5d0b)
-Neptune - 2801 (f10a)
+Falcom - 2911 (600b)
+Purple Falcom - 2912 (610b)
+Black Falcom - 2913 (620b)
+Cyan Falcom - 2914 (630b)
+Falcom with more clothes - 2915 (640b)
+Falcom with less clothes - 2916 (650b)
+Falcom with even less clothes - 2917 (660b)
+MAGES. - 2918 (670b)
+Cooler MAGES. - 2919 (680b)
+MAGES. with brown hair - 2920 (690b)
+Blue MAGES. - 2921 (6a0b)
+Green Rom - 3163 (5b0c)
+
+Character Voices, 0x4d8
+Neptune - 1 (01)
+IF - 12 (0b)
+Compa - 13 (0c)
+CC2 - 16 (0f)
+
+Character IDs, 0x30-0x31 0x4
+Neptune - 1 (01)
+IF - 12 (0b)
+Compa - 13 (0c)
+CC2 - 16 (0f)
+
+Character Portaits, 0x68-0x69
+Neptune - 1 (01)
+IF - 12 (0b)
+Compa - 13 (0c)
+CC2 - 16 (0f)
+
+HDD Models, unknown need to enable and disable hdd first
