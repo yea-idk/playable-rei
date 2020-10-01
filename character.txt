@@ -1,22 +1,35 @@
-0x000-0x003
-header data, tells when a character begins
-do not change this
-may be fun in future
+0x000-0x001
+lower|upper
+character type
+DO NOT EDIT
+0401 - in party
+2401 - transformed
+4401 - not in party
+when transformed some issues occur
+you are unable to jump
+you are unable to preemtive attack
+you have no voice
+generic attack animations are broken
+you have to walk animation
+if you enter a battle you will not gain any hdd buffs and will revert after
+
+0x002-0x003
+unknown
 
 0x004-0x005
 lower|upper
 party id, tells what party member this is
+mostly serves as a failsafe
 DO NOT EDIT
-overlaps can cause crashes, changed values can break story
-set custom characters to XXff
+overlaps and invalids will cause crashes, changed values can break story
 
 0x006-0x007
 lower|upper
-hdd enable?
+hdd enable
 DO NOT EDIT
 invalid values will likely crash, changing a human to a goddess may cause crashes
-01 - hdd possible?
-02 - hdd not possible?
+01 - hdd possible
+02 - hdd not possible
 
 0x008-0x027
 name space
@@ -33,7 +46,7 @@ this is black magic
 0x02c-0x02d
 lower|upper
 character id
-serves only as a failsafe
+useless?
 change this to anything, leave alone for stock characters
 reccomend keeping the same as party id
 
@@ -151,11 +164,11 @@ unknown
 0x0b8-0x0b9
 lower|upper
 model id
-if invalid 1 of 4 things will happen
+if invalid 1 of 3 things will happen
 1 no model will be displayed, disables jumping
 2 areas will take longer to load and display no character model, disables jumping
-3 CC2s model will load
-4 either the party id or character id will load, unsure of which, likely party id
+3 the party id will load without any cosmetics as a failsafe
+dlc characters will not load if dlc is not installed
 
 0x0ba-0x4c3
 unknown
@@ -171,7 +184,7 @@ unknown
 
 0x4d8
 character voice bank
-have no tried setting invalid
+setting invalid has no voice
 produces some interesting effects when using wrong voice in battle
 does not affect hdd
 

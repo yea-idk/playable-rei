@@ -1,11 +1,13 @@
 HyperDimension Neptunia Re;Brith 1
 
 Character Models, 0xb8-0xb9
-CyberConnect2 - 0000 (and most invalid IDs)
+CyberConnect2 - 0000
+Cooler Neptune - a40a
 Neptune - f10a
 Neptune Smile Spiral - fc0a
 Noire Cool Girl - 140b
 Blanc Lowee Elementary - 220b
+Vert Black Dress - 2d0b
 Vert Leanbox Pride - 300b
 Nepgear Swimsuit - 380b
 Peashy Neptuna - 400b
