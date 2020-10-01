@@ -1,38 +1,99 @@
 HyperDimension Neptunia Re;Brith 1
 
 Character Models, 0xb8-0xb9
-Neptune - 2801 (f10a)
-IF - 2906 (5a0b)
-Compa - 2909 (5d0b)
-Falcom - 2911 (600b)
-Purple Falcom - 2912 (610b)
-Black Falcom - 2913 (620b)
-Cyan Falcom - 2914 (630b)
-Falcom with more clothes - 2915 (640b)
-Falcom with less clothes - 2916 (650b)
-Falcom with even less clothes - 2917 (660b)
-MAGES. - 2918 (670b)
-Cooler MAGES. - 2919 (680b)
-MAGES. with brown hair - 2920 (690b)
-Blue MAGES. - 2921 (6a0b)
-Green Rom - 3163 (5b0c)
+CyberConnect2 - 0000 (and most invalid IDs)
+Neptune - f10a
+Neptune Smile Spiral - fc0a
+Noire Cool Girl - 140b
+Blanc Lowee Elementary - 220b
+Vert Leanbox Pride - 300b
+Nepgear Swimsuit - 380b
+Peashy Neptuna - 400b
+Uni Swimsuit - 480b
+Rom Idol - 510b
+Ram Idol - 590b
+IF - 5a0b
+Compa - 5d0b
+Falcom - 600b
+Purple Falcom - 610b
+Black Falcom - 620b
+Cyan Falcom - 630b
+Falcom with more clothes - 640b
+Falcom with less clothes - 650b
+Falcom Swimsuit - 660b
+MAGES. - 670b
+Cooler MAGES. - 680b
+MAGES. with brown hair - 690b
+Blue MAGES. - 6a0b
+MAGES. Swimsuit - 6d0b
+Broccoli Di Di Charat - 7b09
+MarvelousAQL Swimsuit - 820b
+Tekken Swimsuit - 890b
+Green Rom - 5b0c
+Plutia Fancy - ee0f
+Histoire Swimsuit - 9615
 
 Character Voices, 0x4d8
-Neptune - 1 (01)
-IF - 12 (0b)
-Compa - 13 (0c)
-CC2 - 16 (0f)
+Neptune - 01
+Plutia - 02
+Noire - 03
+Blanc - 04
+Vert - 05
+Nepgear - 06
+Peashy - 07
+Uni - 08
+Rom - 09
+Ram - 0a
+IF - 0b
+Compa - 0c
+Falcom - 0d
+MAGES. 0e
+CyberConnect2 - 0f
+Broccoli - 10
+MarvelousAQL - 11
+Tekken - 12
+Histoire - 13
 
 Character IDs, 0x30-0x31 0x4
-Neptune - 1 (01)
-IF - 12 (0b)
-Compa - 13 (0c)
-CC2 - 16 (0f)
+Neptune - 01
+Plutia - 02
+Noire - 03
+Blanc - 04
+Vert - 05
+Nepgear - 06
+Peashy - 07
+Uni - 08
+Rom - 09
+Ram - 0a
+IF - 0b
+Compa - 0c
+Falcom - 0d
+MAGES. 0e
+CyberConnect2 - 0f
+Broccoli - 10
+MarvelousAQL - 11
+Tekken - 12
+Histoire - 13
 
 Character Portaits, 0x68-0x69
-Neptune - 1 (01)
-IF - 12 (0b)
-Compa - 13 (0c)
-CC2 - 16 (0f)
+Neptune - 01
+Plutia - 02
+Noire - 03
+Blanc - 04
+Vert - 05
+Nepgear - 06
+Peashy - 07
+Uni - 08
+Rom - 09
+Ram - 0a
+IF - 0b
+Compa - 0c
+Falcom - 0d
+MAGES. 0e
+CyberConnect2 - 0f
+Broccoli - 10
+MarvelousAQL - 11
+Tekken - 12
+Histoire - 13
 
-HDD Models, unknown need to enable and disable hdd first
+HDD Models, unknown
